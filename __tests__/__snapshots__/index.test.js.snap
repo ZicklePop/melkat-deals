@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`page - index should render 1`] = `
+<main
+  className="jsx-284845228 measure-wide center sans-serif f3 fw2 "
+>
+  <h1
+    className="jsx-284845228 lh-title fw2 f2 pv3"
+  >
+    <a
+      className="jsx-284845228 no-underline"
+      href="/"
+    >
+      melkat
+    </a>
+  </h1>
+  wip
+  <footer
+    className="jsx-284845228 lh-copy tc f6"
+  >
+    <p
+      className="jsx-284845228"
+    >
+      code by 
+      <a
+        className="jsx-284845228"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+       &lt;3
+    </p>
+  </footer>
+</main>
+`;

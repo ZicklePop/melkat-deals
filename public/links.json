@@ -1,0 +1,82 @@
+{
+  "links": [
+    {
+      "description": "Get $50 when you open a Chime bank account and set up direct deposit!",
+      "name": "Chime",
+      "url": "https://chime.com/r/melaniebilbrey",
+      "weight": 0.5
+    },
+    {
+      "description": "Arcadia is a free service that connects you to clean energy and save on your power bills. Sign up using this referral link and you and I will earn $10.",
+      "name": "Arcadia",
+      "url": "https://arcadia.com/referral/?promo=melanie53922",
+      "weight": 0.25
+    },
+    {
+      "description": "Get $100 in delivery fee credit when you sign up.",
+      "name": "Postmates",
+      "url": "https://postmat.es/iUx0fyXgU8",
+      "weight": 0.1
+    },
+    {
+      "description": "One Medical is committed to providing the best primary care through exceptional quality, a world-class experience, and second-to-none technology. Get $25 off on your membership.",
+      "name": "One Medical",
+      "url": "http://members.onemedical.com/membership_referrals?code=mel0739&source=sa",
+      "weight": 0.25
+    },
+    {
+      "description": "Slim, travel-ready electric toothbrushes with affordable brush head & toothpaste refill plans. Get your first electric toothbrush refill free.",
+      "name": "Quip",
+      "url": "https://getquip.com/rf?referral_code=1tssc9tf",
+      "weight": 0.1
+    },
+    {
+      "description": "Unlimited Backup: Back up your Mac or PC online for just $6/month. Get your first month free.",
+      "name": "Backblaze",
+      "url": "https://secure.backblaze.com/r/0167cy",
+      "weight": 0.25
+    },
+    {
+      "description": "Your favorite restaurants, delivered. Get $5 off your first 3 deliveries.",
+      "name": "Doordash",
+      "url": "https://drd.sh/GBTcOo/",
+      "weight": 0.1
+    },
+    {
+      "description": "Your friend with a car, whenever you need one. Get $5 off your first ride.",
+      "name": "Lyft",
+      "url": "https://www.lyft.com/invite/web-onboarding/JAKE91?utm_medium=p2pi_iacc",
+      "weight": 0.1
+    },
+    {
+      "description": "Get real food delivered. Download the app with my link and get $3 off.",
+      "name": "Sweetgreen",
+      "url": "https://www.thelevelup.com/c/EM-MANDCPBF5L",
+      "weight": 0.05
+    },
+    {
+      "description": "Chef cooked, healthy meals delivered to you. Get $40 at Freshly with this link.",
+      "name": "Freshly",
+      "url": "https://refer.freshly.com/s/zicklepop",
+      "weight": 0.20
+    },
+    {
+      "description": "Sign up to send and receive money with Square Cash and get $5",
+      "name": "Square Cash",
+      "url": "https://cash.app/app/PNWDVLX",
+      "weight": 0.05
+    },
+    {
+      "description": "A collection of nutritionally complete, affordable meals and snacks. Get $15 off your first order over $50.",
+      "name": "Huel",
+      "url": "https://huel.mention-me.com/m/ol/wy2iq-c2f6b2e38e",
+      "weight": 0.25
+    },
+    {
+      "description": "Get 20% off your first order of $12 or more.",
+      "name": "MeUndies",
+      "url": "http://getcomfy.in/kLgQp",
+      "weight": 0.15
+    }
+  ]
+}
