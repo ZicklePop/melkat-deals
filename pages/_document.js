@@ -16,7 +16,6 @@ class MyDocument extends Document {
           <link rel='mask-icon' sizes='any' href='/mask-icon.svg' color='#00d6ff' />
           <meta charSet='utf-8' />
           <meta name='keywords' content='melkat, melanie, kat, dev, codes' />
-          <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <meta property='og:type' content='website' />
           <meta name='twitter:image' content='/facebook-open-graph.png' />
           <meta name='twitter:image:alt' content='logo for melkat.deals' />

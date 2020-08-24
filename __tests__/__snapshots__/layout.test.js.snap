@@ -2,33 +2,27 @@
 
 exports[`component - layout should render 1`] = `
 <main
-  className="jsx-284845228 measure-wide center sans-serif f3 fw2 "
+  className="jsx-2152329932 sans-serif "
 >
-  <h1
-    className="jsx-284845228 lh-title fw2 f2 pv3"
-  >
-    <a
-      className="jsx-284845228 no-underline"
-      href="/"
-    >
-      melkat
-    </a>
-  </h1>
   <footer
-    className="jsx-284845228 lh-copy tc f6"
+    className="jsx-2152329932 lh-copy f6 fw4 gray mh3"
   >
     <p
-      className="jsx-284845228"
+      className="jsx-2152329932 ma0 pa0"
     >
-      code by 
+      affliate links benefit 
       <a
-        className="jsx-284845228"
+        className="jsx-2152329932"
         href="https://melaniekat.com"
         rel="me"
       >
-        melanie kat
+        melkat
       </a>
-       &lt;3
+    </p>
+    <p
+      className="jsx-2152329932 ma0 pa0"
+    >
+      melkat.deals does not track you
     </p>
   </footer>
 </main>
@@ -36,36 +30,30 @@ exports[`component - layout should render 1`] = `
 
 exports[`component - layout should render with props 1`] = `
 <main
-  className="jsx-284845228 measure-wide center sans-serif f3 fw2 "
+  className="jsx-2152329932 sans-serif "
 >
-  <h1
-    className="jsx-284845228 lh-title fw2 f2 pv3"
-  >
-    <a
-      className="jsx-284845228 no-underline"
-      href="/"
-    >
-      melkat
-    </a>
-  </h1>
   <b>
     #content
   </b>
   <footer
-    className="jsx-284845228 lh-copy tc f6"
+    className="jsx-2152329932 lh-copy f6 fw4 gray mh3"
   >
     <p
-      className="jsx-284845228"
+      className="jsx-2152329932 ma0 pa0"
     >
-      code by 
+      affliate links benefit 
       <a
-        className="jsx-284845228"
+        className="jsx-2152329932"
         href="https://melaniekat.com"
         rel="me"
       >
-        melanie kat
+        melkat
       </a>
-       &lt;3
+    </p>
+    <p
+      className="jsx-2152329932 ma0 pa0"
+    >
+      melkat.deals does not track you
     </p>
   </footer>
 </main>

@@ -3,10 +3,9 @@ import Head from 'next/head'
 import PropTypes from 'prop-types'
 
 const cx = {
-  main: 'measure-wide center sans-serif f3 fw2',
-  h1: 'lh-title fw2 f2 pv3',
-  h1a: 'no-underline',
-  footer: 'lh-copy tc f6'
+  main: 'sans-serif',
+  footer: 'lh-copy f6 fw4 gray mh3',
+  p: 'ma0 pa0'
 }
 
 const Layout = ({ title, description, children, className }) => {
@@ -15,6 +14,7 @@ const Layout = ({ title, description, children, className }) => {
       <Head>
         <title>{title}</title>
         <meta name='description' content={description} />
+        <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <meta name='twitter:title' content={title} />
         <meta name='twitter:description' content={description} />
         <meta property='og:description' content={description} />
@@ -29,10 +29,6 @@ const Layout = ({ title, description, children, className }) => {
           a {
             color: #fff;
           }
-          h1 a::after {
-            content: '.deals';
-            color: #949494;
-          }
           @media (prefers-color-scheme: light) {
             body {
               color: #111;
@@ -44,22 +40,16 @@ const Layout = ({ title, description, children, className }) => {
           }
         `}
       </style>
-      <h1 className={cx.h1}>
-        <a
-          className={cx.h1a}
-          href='/'
-        >
-          {'melkat'}
-        </a>
-      </h1>
       {children}
       <footer className={cx.footer}>
-        <p>
-          {'code by '}
+        <p className={cx.p}>
+          {'affliate links benefit '}
           <a href='https://melaniekat.com' rel='me'>
-            {'melanie kat'}
+            {'melkat'}
           </a>
-          {' <3'}
+        </p>
+        <p className={cx.p}>
+          {'melkat.deals does not track you'}
         </p>
       </footer>
     </main>
