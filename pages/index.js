@@ -1,35 +1,35 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import Layout from '../components/layout'
-import fetch from 'isomorphic-unfetch'
-
-const devPort = parseInt(process.env.PORT, 10) || 3000
-const host = process.env.NODE_ENV !== 'production' ? `http://localhost:${devPort}` : 'https://melkat.deals'
-const API = `${host}/api`
+import Link from '../components/link'
+import map from 'lodash/map'
+import sortBy from 'lodash/sortBy'
+import referrals from '../public/links.json'
 
 const cx = {
-  article: 'mw5 pa3 fw5',
-  name: 'f4 bb bw1 b--gray pb3 dib mb0 lh-title',
-  description: 'lh-copy center f6 justify',
-  a: 'link'
+  layout: 'mw8 center',
+  link: 'dib w-100 w-25-l w-third-m v-top'
 }
 
-const Index = ({ link }) => (
-  <Layout>
-    <a href={link.url} className={cx.a}>
-      <article className={cx.article}>
-        <h1 className={cx.name}>{link.name}</h1>
-        <p className={cx.description}>
-          {link.description}
-        </p>
-      </article>
-    </a>
+const Index = ({ links }) => (
+  <Layout className={cx.layout}>
+    {map(links, (el, i) => (
+      <Link className={cx.link} key={i} {...el} />
+    ))}
   </Layout>
 )
 
 Index.getInitialProps = async function () {
-  const res = await fetch(API)
-  const link = await res.json()
-  return { link }
+  const links = sortBy(referrals.links, o => o.weight * -1)
+  return { links }
+}
+
+Index.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.shape({
+    description: PropTypes.string,
+    name: PropTypes.string,
+    url: PropTypes.string
+  }))
 }
 
 export default Index

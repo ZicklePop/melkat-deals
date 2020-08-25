@@ -4,7 +4,9 @@ import PropTypes from 'prop-types'
 
 const cx = {
   main: 'sans-serif',
-  footer: 'lh-copy f6 fw4 gray mh3',
+  footer: 'lh-copy f6 fw4 gray mh3 mb3',
+  h1: 'lh-title f5 ma3 mb0',
+  h1a: 'no-underline',
   p: 'ma0 pa0'
 }
 
@@ -29,6 +31,10 @@ const Layout = ({ title, description, children, className }) => {
           a {
             color: #fff;
           }
+          h1 a::after {
+            content: '.deals';
+            color: #ff52a3;
+          }
           @media (prefers-color-scheme: light) {
             body {
               color: #111;
@@ -40,6 +46,14 @@ const Layout = ({ title, description, children, className }) => {
           }
         `}
       </style>
+      <h1 className={cx.h1}>
+        <a
+          className={cx.h1a}
+          href='/'
+        >
+          {'melkat'}
+        </a>
+      </h1>
       {children}
       <footer className={cx.footer}>
         <p className={cx.p}>
