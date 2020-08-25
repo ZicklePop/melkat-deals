@@ -2,17 +2,27 @@
 
 exports[`component - layout should render 1`] = `
 <main
-  className="jsx-2152329932 sans-serif "
+  className="jsx-3505939123 sans-serif "
 >
+  <h1
+    className="jsx-3505939123 lh-title f5 ma3 mb0"
+  >
+    <a
+      className="jsx-3505939123 no-underline"
+      href="/"
+    >
+      melkat
+    </a>
+  </h1>
   <footer
-    className="jsx-2152329932 lh-copy f6 fw4 gray mh3"
+    className="jsx-3505939123 lh-copy f6 fw4 gray mh3 mb3"
   >
     <p
-      className="jsx-2152329932 ma0 pa0"
+      className="jsx-3505939123 ma0 pa0"
     >
       affliate links benefit 
       <a
-        className="jsx-2152329932"
+        className="jsx-3505939123"
         href="https://melaniekat.com"
         rel="me"
       >
@@ -20,7 +30,7 @@ exports[`component - layout should render 1`] = `
       </a>
     </p>
     <p
-      className="jsx-2152329932 ma0 pa0"
+      className="jsx-3505939123 ma0 pa0"
     >
       melkat.deals does not track you
     </p>
@@ -30,20 +40,30 @@ exports[`component - layout should render 1`] = `
 
 exports[`component - layout should render with props 1`] = `
 <main
-  className="jsx-2152329932 sans-serif "
+  className="jsx-3505939123 sans-serif "
 >
+  <h1
+    className="jsx-3505939123 lh-title f5 ma3 mb0"
+  >
+    <a
+      className="jsx-3505939123 no-underline"
+      href="/"
+    >
+      melkat
+    </a>
+  </h1>
   <b>
     #content
   </b>
   <footer
-    className="jsx-2152329932 lh-copy f6 fw4 gray mh3"
+    className="jsx-3505939123 lh-copy f6 fw4 gray mh3 mb3"
   >
     <p
-      className="jsx-2152329932 ma0 pa0"
+      className="jsx-3505939123 ma0 pa0"
     >
       affliate links benefit 
       <a
-        className="jsx-2152329932"
+        className="jsx-3505939123"
         href="https://melaniekat.com"
         rel="me"
       >
@@ -51,7 +71,7 @@ exports[`component - layout should render with props 1`] = `
       </a>
     </p>
     <p
-      className="jsx-2152329932 ma0 pa0"
+      className="jsx-3505939123 ma0 pa0"
     >
       melkat.deals does not track you
     </p>
