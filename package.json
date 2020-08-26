@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "main": "server.js",
   "license": "Unlicense",
+  "repository": "github:zicklepop/melkat-deals",
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
     "dev": "next",

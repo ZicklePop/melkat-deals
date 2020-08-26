@@ -1,13 +1,18 @@
 {
-    "routes": [
-        {
-            "src": "/api/?(.*)",
-            "headers": {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Headers": "GET"
-            },
-            "dest": "/api/$1"
-        }
+    "headers": [
+      {
+        "source": "/api/?(.*)",
+        "headers": [
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*",
+          },
+          {
+            "key": "Access-Control-Allow-Headers",
+            "value": "GET",
+          }
+        ]
+      }
     ]
 }
 
