@@ -77,6 +77,12 @@
       "name": "MeUndies",
       "url": "http://getcomfy.in/kLgQp",
       "weight": 15
+    },
+    {
+      "description": "An online bookstore that financially supports local independent bookstores and gives back to the book community.",
+      "name": "Bookshop",
+      "url": "https://bookshop.org/shop/melkat",
+      "weight": 30
     }
   ]
 }
