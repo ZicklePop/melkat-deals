@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.0.0",
-    "next": "^9.5.2",
+    "next": "^9.5.3",
     "pick-random-weighted": "^1.2.3",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
