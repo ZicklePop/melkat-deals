@@ -1,0 +1,21 @@
+{
+  "env": {
+    "RAINDROP_TOKEN": "@raindrop-token",
+    "DEALS_RAINDROP_COLLECTION_ID": "@deals-raindrop-collection-id"
+  },
+  "headers": [
+    {
+      "source": "/api",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "GET"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "melkat.deals",
+  "version": "0.0.1",
+  "main": "server.js",
+  "license": "Unlicense",
+  "repository": "github:zicklepop/melkat-deals",
+  "scripts": {
+    "preinstall": "npx npm-force-resolutions",
+    "dev": "next",
+    "start": "next start",
+    "build": "next build",
+    "next": "next",
+    "now": "vercel dev",
+    "test": "jest",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.5.3",
+    "pick-random-weighted": "^1.2.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tachyons": "^4.12.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "react-test-renderer": "^16.13.1",
+    "standard": "^14.3.4",
+    "vercel": "^20.1.0"
+  },
+  "resolutions": {
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1",
+    "serialize-javascript": "^3.1.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ]
+  },
+  "standard": {
+    "env": "jest"
+  }
+}

@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component - layout should render 1`] = `
+<main
+  className="jsx-3362447630 sans-serif "
+>
+  <h1
+    className="jsx-3362447630 lh-title f5 ma3"
+  >
+    <a
+      className="jsx-3362447630 no-underline"
+      href="/"
+    >
+      melkat
+    </a>
+  </h1>
+  <footer
+    className="jsx-3362447630 lh-copy f6 fw4 gray  ma3"
+  >
+    <p
+      className="jsx-3362447630 ma0 pa0"
+    >
+      affliate links benefit 
+      <a
+        className="jsx-3362447630"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+      ; 
+      links from 
+      <a
+        className="jsx-3362447630"
+        href="https://raindrop.io/collection/12902279"
+      >
+        raindrop.io
+      </a>
+      ; 
+      this site does not track you
+    </p>
+  </footer>
+</main>
+`;
+
+exports[`component - layout should render with props 1`] = `
+<main
+  className="jsx-3362447630 sans-serif "
+>
+  <h1
+    className="jsx-3362447630 lh-title f5 ma3"
+  >
+    <a
+      className="jsx-3362447630 no-underline"
+      href="/"
+    >
+      melkat
+    </a>
+  </h1>
+  <b>
+    #content
+  </b>
+  <footer
+    className="jsx-3362447630 lh-copy f6 fw4 gray  ma3"
+  >
+    <p
+      className="jsx-3362447630 ma0 pa0"
+    >
+      affliate links benefit 
+      <a
+        className="jsx-3362447630"
+        href="https://melaniekat.com"
+        rel="me"
+      >
+        melanie kat
+      </a>
+      ; 
+      links from 
+      <a
+        className="jsx-3362447630"
+        href="https://raindrop.io/collection/12902279"
+      >
+        raindrop.io
+      </a>
+      ; 
+      this site does not track you
+    </p>
+  </footer>
+</main>
+`;

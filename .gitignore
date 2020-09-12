@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.env.build
+.next/
+.now
+.vercel
+coverage/
+node_modules/
+out/
