@@ -27,7 +27,7 @@
     "jest": "^26.4.2",
     "react-test-renderer": "^16.13.1",
     "standard": "^14.3.4",
-    "vercel": "^20.1.0"
+    "vercel": "^20.1.1"
   },
   "resolutions": {
     "minimist": "^1.2.5",
