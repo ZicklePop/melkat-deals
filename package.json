@@ -19,7 +19,7 @@
     "next": "^9.5.5",
     "pick-random-weighted": "^1.2.3",
     "prop-types": "^15.7.2",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "tachyons": "^4.12.0"
   },
