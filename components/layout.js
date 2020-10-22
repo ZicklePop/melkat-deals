@@ -56,7 +56,7 @@ const Layout = ({ title, description, children, className }) => {
           className={cx.h1a}
           href='/'
         >
-          {'melkat'}
+          melkat
         </a>
       </h1>
       {children}
@@ -64,15 +64,15 @@ const Layout = ({ title, description, children, className }) => {
         <p className={cx.p}>
           {'affliate links benefit '}
           <a href='https://melaniekat.com' rel='me'>
-            {'melanie kat'}
+            melanie kat
           </a>
           {'; '}
           {'links from '}
           <a href='https://raindrop.io/collection/12902279'>
-            {'raindrop.io'}
+            raindrop.io
           </a>
           {'; '}
-          {'this site does not track you'}
+          this site does not track you
         </p>
       </footer>
     </main>
