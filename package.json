@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@zeit/next-css": "^1.0.1",
-    "jest": "^27.0.5",
+    "jest": "^27.0.6",
     "next-purgecss": "^4.0.0",
     "react-test-renderer": "^17.0.2",
     "standard": "^16.0.3",
