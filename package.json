@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "isomorphic-unfetch": "^3.1.0",
-    "next": "^10.2.3",
+    "next": "^11.0.1",
     "pick-random-weighted": "^1.2.3",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -24,9 +24,7 @@
     "tachyons": "^4.12.0"
   },
   "devDependencies": {
-    "@zeit/next-css": "^1.0.1",
-    "jest": "^27.0.5",
-    "next-purgecss": "^4.0.0",
+    "jest": "^27.0.6",
     "react-test-renderer": "^17.0.2",
     "standard": "^16.0.3",
     "vercel": "^23.0.1"
